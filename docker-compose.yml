@@ -1,0 +1,7 @@
+version: "3"
+services:
+  demo:
+    container_name: demo
+    image: wsams/demo:latest
+    ports:
+    - 8080:8080
