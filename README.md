@@ -1,3 +1,35 @@
+# Demo
+
+A minimal spring boot app for displaying Lorem Ipsum at http://localhost:8080/ - nothing else.
+
+## Build the application
+
+```
+mvn clean package -DskipTests
+```
+
+## Build the image
+
+```
+docker build -t wsams/demo:latest --rm .
+```
+
+## Run directly with Maven
+
+```
+mvn spring-boot:run
+```
+
+View the index page at http://localhost:8080/
+
+## Run with `java -jar`
+
+```
+java -jar target/demo-0.0.1-SNAPSHOT.jar
+```
+
+View the index page at http://localhost:8080/
+
 ## Start the web server with `docker`
 
 ```
