@@ -2,6 +2,19 @@
 
 A minimal spring boot app for displaying Lorem Ipsum at http://localhost:8080/ - nothing else.
 
+* [GitHub Project](https://github.com/wsams/demo)
+* [Docker Hub](https://hub.docker.com/r/wsams/demo)
+
+## Clone project
+
+```
+git clone git@github.com:wsams/demo.git
+
+# OR
+
+git clone https://github.com/wsams/demo.git
+```
+
 ## Build the application
 
 ```
